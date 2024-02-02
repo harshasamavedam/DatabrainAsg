@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import Userlogdetails from '../Context/Context'
+import Renderfail from './renderfail';
 import './Hst.css'
 import { CiSearch } from "react-icons/ci";
 import { MdOutlineClear } from "react-icons/md";
@@ -42,6 +43,7 @@ export default class Home extends Component{
 this.setState((prev)=>({rang:event.target.value}),this.filterR)
     }
 
+   
     changeC=(event)=>{
     const{category}=this.state
     this.setState(()=>({category:event.target.value}),this.filterR)
@@ -170,7 +172,7 @@ render(){
                 const {islogin}=value
 
                 return <div>
-                    {islogin?this.rendersucess():this.renderfail}
+                    {islogin?this.rendersucess():<Renderfail/>}
                     </div>
             }
         }
