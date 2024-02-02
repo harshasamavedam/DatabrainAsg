@@ -1,0 +1,56 @@
+.homestyle{
+    display:flex;
+    flex-direction: row;
+    width: 90%;
+    margin:auto;
+    margin-top:1%;
+    padding:0.5%;
+    background-color: aqua;
+    height:100vh;
+    overflow: scroll;
+    border-radius: 1%;
+}
+.filtersec{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: black;
+    border-radius:2%;
+    padding:2%
+}
+h1{
+    color:white
+}
+.finp{
+    width: 80%;
+    margin: auto;
+}
+
+.searchc{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   padding:2%;
+}
+.searc{
+    color:white
+}
+
+.singlecomp{
+
+    background-color: rgb(45, 61, 61);
+    height:35%;
+    width:30%;
+    padding:1%;
+    margin:3%;
+}
+.itemimg{
+    width: 80%;
+    height:60%
+}
+.items{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

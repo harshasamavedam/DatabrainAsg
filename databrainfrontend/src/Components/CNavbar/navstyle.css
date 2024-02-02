@@ -1,0 +1,20 @@
+.bac{
+
+    height:5%;
+    width:95%;
+    margin:auto;
+    margin-top:1%;
+    background-image:linear-gradient(to left,rgb(164, 169, 187),pink);
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+}
+.log{
+    width:20%;
+    height: fit-content;
+}
+.notshared{
+    width: 10%;
+    height:fit-content;
+}
